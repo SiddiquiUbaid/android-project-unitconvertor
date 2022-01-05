@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="268dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:text="@string/choose_application"
+        android:textColor="#3C0445"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnLength"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uniconertpngegg" />
+
+    <Button
+        android:id="@+id/btnWeight"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/weight"
+        app:backgroundTint="#CD2E0435"
+        app:layout_constraintBottom_toTopOf="@+id/btnArea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLength" />
+
+    <Button
+        android:id="@+id/btnArea"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/area"
+        app:backgroundTint="#CD2E0435"
+        app:layout_constraintBottom_toTopOf="@+id/btnVolume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWeight" />
+
+    <Button
+        android:id="@+id/btnVolume"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/volume"
+        app:backgroundTint="#CD2E0435"
+        app:layout_constraintBottom_toTopOf="@+id/btnTemperature"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnArea" />
+
+    <Button
+        android:id="@+id/btnTemperature"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/temperature"
+        app:backgroundTint="#CD2E0435"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVolume" />
+
+    <Button
+        android:id="@+id/btnLength"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/length"
+        app:backgroundTint="#CD2E0435"
+        app:layout_constraintBottom_toTopOf="@+id/btnWeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

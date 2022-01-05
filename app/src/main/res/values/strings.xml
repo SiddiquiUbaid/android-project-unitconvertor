@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Unit Convertor</string>
+    <string name="weight">Weight</string>
+    <string name="length">Length</string>
+    <string name="area">Area</string>
+    <string name="volume">Volume</string>
+    <string name="temperature">Temperature</string>
+    <string name="choose_application">Choose Application</string>
+
+    <string name="measure_length">Miles to Kilometers</string>
+    <string name="answer_length">Kilometers</string>
+
+
+    <string name="measure_weight">Pounds to Kilograms</string>
+    <string name="enter_value_weight">Enter value in pounds</string>
+    <string name="answer_weight">Kilograms</string>
+
+    <string name="measure_area">Meters to Yards</string>
+    <string name="enter_value_area">Enter value in meters</string>
+    <string name="answer_area">Yards</string>
+
+    <string name="measure_volume">Gallons to Litres</string>
+    <string name="enter_value_volume">Enter value in Gallons</string>
+    <string name="answer_volume">Litres</string>
+
+    <string name="measure_temperature">Fahrenheit to Celsius</string>
+    <string name="enter_value_temperature">Enter value in Fahrenheit</string>
+    <string name="answer_temperature">Celsius</string>
+
+
+
+    <string name="convert">convert</string>
+    
+</resources>
